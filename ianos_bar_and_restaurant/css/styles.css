@@ -1,0 +1,36 @@
+body{
+	margin: 5px;
+	padding: 5px;
+
+}
+
+.card{
+	width: 450px;
+}
+.form-control-label{
+	margin-bottom: 1px;
+}
+#login-form{
+	margin: 0;
+}
+
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+label{
+	padding-bottom: 5px;
+}
+
+.form-group{
+	margin-bottom: 10;
+}

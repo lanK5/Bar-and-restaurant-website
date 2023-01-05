@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Order Form </title>
+    <link rel="stylesheet" href="css/flexboxgrid.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header id="main-header">
+      <div class="container">
+        <div class="row end-sm end-md end-lg center-xs middle-xs middle-sm middle-md middle-lg">
+          <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
+            <h1><span class="primary-text">Order Form</h1>
+          </div>
+          <div class="col-xs-12 col-sm-10 col-md-10 col-lg-10">
+            <nav id="navbar">
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about us.html">About Us</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li class="current"><a href="order.html">Place Order</a></li>
+                <li><a href="payment.html">Payment</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+
+
+
+
+<head>
+<title>Order form</title>
+</head>
+<body bgcolor="gray">
+<h1><i>Order Form</i></h1>
+<form action="order.html">
+<p>Which type of order?<p>
+<p><input type="radio" name="radio" value="home deliver">Home Delivery</p>
+<p><input type="radio" name="radio" value="eating on premises">Eat in Premises</p>
+<p>Date:  <input type="date" name="date"/></p>
+
+<fieldset>
+<legend>Personal Information</legend>
+<p>Customer Name:  <input type="text" name="first_name" align="left"/></p>
+
+<p>Customer Id:  <input type="varchar" name="ID" align="left"/></p>
+
+<p>Address:  <input type="text" name="address" align="left"/></p>
+
+<p>Home phone:  <input type="value" name="phone"/></p>
+
+</fieldset>
+<p>To view our products and services again click <a href="products.html">Products</a></p>	
+
+  <p>Choose food(s): <select name="food name(s)" class="form-control" >
+     <option value="<?php echo $food name(s)  ?>" ><?php echo $food name(s)  ?></option>
+     <option value="bread">Bread</option>
+     <option value="fries">Fries</option>
+     <option value="pilau">Pilau</option>
+     <option value="chicken">chicken</option>
+     <option value="pizza">pizza</option>
+     <option value="pork">pork</option>
+     <option value="lasagnia">lasagnia</option>
+     <option value="ugali plain">Ugali plain</option>
+     <option value="rice plain">rice</option>
+     <option value="rice beans">rice beans</option>
+     <option value="samosa">Samosa</option>
+
+    </select>    
+  </p>
+
+  <p>Choose drink(s): <select name="drink name(s)" class="form-control" values="selecOption>">
+    <option value="<?php echo $drink name(s)  ?>" ><?php echo $drink name(s)  ?></option>
+    <option value="soda">Soda</option>
+    <option value="tea">Tea</option>
+    <option value="beer">Beer</option>
+    <option value="cocktail">Cocktail</option>
+    <option value="porridge">Porridge</option>
+    <option value="juice">Juice</option>
+    <option value="coffee">Coffee</option>
+    <option value="milk">Milk</option>
+    <option value="tequila">Tequila</option>
+    <option value="dasani">Dasani</option>
+    <option value="mineral Water">Mineral Water</option>
+    
+   </select>    
+ </p>
+
+<p>Billed amount:  <input type="number" name="Billed amount"/></p>  To pay click <a href="payment.html">Payment</a>
+
+<p>Delivery date:  <input type="date" name="date"/></p>
+
+<p>Delivery time:  <input type="time" name="time"/></p>
+
+
+<div class="form-group col">
+  <h4><label for="gender" class="col-form-label col-12 float-left font-weight-bold">Would you like to make a resevation</label></h4>
+  <div class="radio">
+      <label><input type="radio" name="role" value="book" onclick="book()"> Book table </label>
+      <label><input type="radio" name="role" value="table" onclick="table()"> Don't want table </label>
+  </div>
+</div> 
+
+</form>
+    
+    <p><a href="reception.html"><input type="button" name="btn 1" value="SUBMIT"></a>
+    <a href="order.html"><input type="button" name="btn 2" value="CLEAR"></a>
+    <a href="order.html"><input type="button" name="btn 3" value= "CANCEL"></a></p>
+
+    <p>This is how your receipt looks like  <a href="receipt.html">  Sample Receipt</p>
+</form>
+<!-- FOOTER -->
+<footer id="main-footer">
+  <div class="container">
+    <div class="row center-xs center-sm center-md center-lg">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <p><marquee direction="left" behaviour="alternate"> Ianos Bar and Restaurant &copy; 2021</marquee></p>
+      </div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
